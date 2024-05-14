@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    font-family: "Smythe", system-ui;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.banner {
+    width: 600px;
+    margin: 0;
+    padding: 0;
+    background-image: url("image.png");
+    color: #fff;
+}
+
+.title {
+    font-size: 39px;
+    margin: 0 0 7 0;
+    padding-top: 40px;
+    padding-left: 43px;
+}
+
+.subtitle {
+    font-size: 23px;
+    margin: 0;
+    padding-left: 43px;
+    padding-bottom: 48px;
+}
+
+/* menu */
+.item {
+    display: flex;
+    width: 510px;
+    margin: 0 45px 0 45px;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.emoji {
+    font-size: 78px;
+    margin: auto 0 auto 0;
+}
+
+.description {
+    margin-left: 31px;
+}
+
+.name {
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 8.8px;
+    padding-top: 51px;
+}
+
+.ingredients {
+    font-size: 16px;
+    color: #8B8B8B;
+    margin: 0;
+}
+
+.price {
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 8px;
+    padding-bottom: 51px;
+}
+
+.item button {
+    width: 50px;
+    height: 50px;
+    margin: auto 0 auto auto;
+    border: 1.5px solid #DEDEDE;
+    border-radius: 50px;
+    font-size: 32px;
+    color: #3C3C3C;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    padding-bottom: 4px;
+    background-color: #fff;
+}
+
+/* order */
+.ordertitle{
+    font-size: 28px;
+    text-align: center;
+}
+
+.order {
+    margin: 0;
+}
+
+.orderitemlist {
+    margin: 0;
+}
+
+.orderitem {
+    display: flex;
+    width: 510px;
+    margin: 0 45px 0 45px;
+    
+}
+
+.ordername {
+    font-size: 28px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+.orderitem button {
+    border: none;
+    background-color: #fff;
+    margin-left: 13px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #BBB;
+}
+
+.orderprice {
+    font-size: 20px;
+    line-height: 2.5;
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.total {
+    border-top: 2px solid #393333;
+    padding-top: 14px;
+}
+
+.complete-btn {
+    margin: 35px auto 50px 45px;
+    width: 510px;
+    height: 60px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    background: #16DB99;
+    padding: 18px auto 18px auto;
+    font-weight: 700;
+}
+
+/* card details */
+.card-details {
+    display: none;
+    position: fixed;
+    top: 100px;
+    bottom: auto;
+    left: 40px;
+    right: auto;
+    margin: auto;
+    width: 520px;
+    height: 540px;
+    border: none;
+    border-radius: 3.89px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0px 0px 100px 10px #525252;
+    background-color: #fff;
+}
+
+.card-details p {
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 46px;
+    margin-bottom: 34px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 470px;
+    height: 71px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 26.5px;
+}
+
+form button {
+    margin-top: 34px;
+    margin-bottom: 29px;
+    width: 470px;
+    height: 71px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 3.89px;
+    background: #16DB99;   
+    color: #fff; 
+}
+
+.thank {
+    display: none;
+    width: 504px;
+    height: 120px;
+    margin-top: 45px;
+    margin-bottom: 60px;
+    border-radius: 3px;
+    background: #ECFDF5;
+    color: #065F46;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.thank p {
+    margin: 41px auto 0 auto;
+}

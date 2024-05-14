@@ -1,0 +1,49 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <!-- import Smythe font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        <!-- import Inter font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+
+        <!-- import css -->
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="banner">
+            <p class="title">Jimmy’s Diner</p>
+            <p class="subtitle"> The best burgers and pizzas in town.</p>
+        </div>
+
+        <div id="menu"></div>
+
+        <div class="order" id="order">
+            <p class="ordertitle">Your order</p>
+
+            <div class="orderitemlist" id="orderitemlist"></div>
+            
+            <button class="complete-btn" id="complete-btn">Complete order</button>  
+        </div>
+
+        <div class="card-details" id="card-details">
+            <p>Enter card details</p>
+            <form id="card-form">
+                <input type="text" id="username" name="username" placeholder="Enter your name" required pattern="[a-zA-Z ]+">
+                <input type="text" id="cardnum" name="cardnum" placeholder="Enter card number" required pattern="[0-9]+" maxlength="18">
+                <input type="text" id="cvv" name="cvv" placeholder="Enter CVV" required minlength="3" maxlength="3">
+                <button type="submit" class="pay">Pay</button>
+            </form>
+        </div>
+
+        <div class="thank" id="thank"></div>
+        
+        
+        
+	<script src="index.js" type="module"></script>
+    <script src="data.js" type="module"></script>
+    </body>
+</html>
+
